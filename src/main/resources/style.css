@@ -1,0 +1,173 @@
+.root{
+        -fx-background-color:#EAEEF4;
+}
+.side_ankerpane{
+        -fx-background-color:#353A56;
+        -fx-border-width: 2px 2px 2px 2px;
+        -fx-border-radius: 20px;
+        -fx-background-radius: 20px;
+        -fx-border-style: solid;
+    }
+ .inner_pane{
+         -fx-background-color:#748CF1;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 20px;
+         -fx-background-radius: 20px;
+         -fx-border-style: solid;
+         -fx-border-color: #748CF1;
+
+ }
+ .most_inner_pane{
+         -fx-background-color:#6780E2;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 20px;
+         -fx-background-radius: 20px;
+         -fx-border-style: solid;
+         -fx-border-color: #748CF1;
+
+ }
+
+ .btn_workbench{
+         -fx-background-color:#141313;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 50px;
+         -fx-background-radius: 50px;
+         -fx-border-style: solid;
+         -fx-border-color: #141313;
+ }
+.btn_workbench11 {
+    -fx-background-color: #353A56;
+    -fx-border-width: 2px 2px 2px 0; /* 0px border on the right side */
+    -fx-border-radius: 0 50px 50px 0; /* 50px radius for the top-left and bottom-left corners */
+    -fx-background-radius:  0 50px 50px 0; /* 50px radius for the top-left and bottom-left corners */
+    -fx-border-style: solid;
+    -fx-border-color: #353A56;
+}
+.btn_workbench113{
+    -fx-background-color: #6a6a72;
+    -fx-border-width: 0px 0px 0px 0px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-text-color: #000;
+}
+.btn_workbench113:selected {
+    -fx-background-color: red;
+}
+ .pane_1{
+         -fx-background-color:#748CF1;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 20px;
+         -fx-background-radius: 20px;
+         -fx-border-style: solid;
+         -fx-border-color: #748CF1;
+        -fx-prompt-text-fill: #090808;
+ }
+.pane_d1{
+    -fx-prompt-text-fill: #090808;
+}
+ .progress{
+         -fx-background-color:#ffffff;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 16px;
+         -fx-background-radius: 16px;
+         -fx-border-style: solid;
+         -fx-border-color: #ffffff;
+ }
+ .pane_11{
+         -fx-background-color:#ffffff;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 16px;
+         -fx-background-radius: 16px;
+         -fx-border-style: solid;
+         -fx-border-color: #ffffff;
+ }
+ .pane_111{
+         -fx-background-color:#FD9999;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 16px;
+         -fx-background-radius: 16px;
+         -fx-border-style: solid;
+         -fx-border-color: #FD9999;
+
+ }
+ .pane_1111{
+         -fx-background-color:#353A56;
+         -fx-border-width: 2px 2px 2px 2px;
+         -fx-border-radius: 16px;
+         -fx-background-radius: 16px;
+         -fx-border-style: solid;
+         -fx-border-color: #353A56;
+ }
+
+/* Star button style for JavaFX */
+.button-star {
+    -fx-shape: "M 100,0 L 125,75 200,75 150,125 175,200 100,150 25,200 50,125 0,75 75,75 z"; /* Star shape path */
+    -fx-background-color: rgba(0,0,0,0); /* Gold color */
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #353A56;
+    -fx-padding: 10; /* Padding around the button */
+    -fx-background-insets: 0; /* No insets */
+}
+
+/* Hover effect for the star button */
+.button-star:hover {
+    -fx-background-color: #f8d309; /* Lighter gold color on hover */
+}
+/* Assuming your CSS file is named styles.css */
+.fond {
+    -fx-background-color: rgba(10, 35, 58, 0.7);
+    -fx-background-size: cover; /* or contain, depending on your preference */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-image: url('images/sss.jpg');
+
+
+}
+
+.text-field {
+    -fx-background-color: rgba(166, 143, 143, 0.7); /* Couleur de fond */
+    -fx-text-fill: #000000; /* Couleur du texte */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-border-color: #CCCCCC; /* Couleur de la bordure */
+    -fx-border-width: 1px; /* Largeur de la bordure */
+    -fx-border-radius: 5px; /* Rayon de la bordure */
+    -fx-padding: 5px; /* Espacement intérieur */
+}
+.label {
+    -fx-font-family: Arial, sans-serif; /* Police de caractères */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-text-fill: #fff9f9; /* Couleur du texte */
+}
+
+
+.text-field:focused {
+    -fx-border-color: #0078D7; /* Couleur de la bordure lorsqu'il est en focus */
+}
+/* Style pour les en-têtes de colonne */
+/* Style pour les en-têtes de colonne */
+.table-view .column-header {
+    -fx-background-color: #353a56; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-weight: bold; /* Gras */
+    -fx-padding: 8px; /* Espacement interne */
+}
+
+/* Style pour les cellules */
+.table-view .table-row-cell {
+    -fx-background-color: #FFFFFF; /* Couleur de fond */
+    -fx-text-fill: #333333; /* Couleur du texte */
+    -fx-alignment: center; /* Alignement du contenu au centre */
+    -fx-padding: 5px; /* Espacement interne */
+}
+
+/* Style pour les cellules lorsqu'elles sont sélectionnées */
+.table-view .table-row-cell:selected {
+    -fx-background-color: #353a56; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+}
+
+/* Style pour les lignes impaires */
+.table-view .table-row-cell:odd {
+    -fx-background-color: #F5F5F5; /* Couleur de fond */
+}
